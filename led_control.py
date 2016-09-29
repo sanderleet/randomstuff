@@ -2,7 +2,7 @@ from wsgiref.simple_server import make_server
 import RPi.GPIO as GPIO
 
 GPIO.setwarnings(False)
-led=10
+led=22
 GPIO.cleanup()
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(led, GPIO.OUT)
