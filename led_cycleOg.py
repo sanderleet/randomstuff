@@ -2,7 +2,7 @@ import time
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(22, GPIO.OUT)
-GPIO.setup(27, GPIO.OUT) #234568
+GPIO.setup(27, GPIO.OUT)
 GPIO.setup(10, GPIO.OUT)
 t = 0.1
 pr = GPIO.PWM(10, 400)  # channel=10 frequency=400Hz
